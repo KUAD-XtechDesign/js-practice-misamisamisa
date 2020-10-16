@@ -5,5 +5,9 @@ $(function(){
       $(".back-red").hide();
       })
   
+    $("#button02").on("click",function(){
+        $(".back-blue").hide();
+        })
+    
   
   })
