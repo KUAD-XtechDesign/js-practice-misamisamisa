@@ -6,8 +6,12 @@ $(function(){
       })
   
     $("#button02").on("click",function(){
-        $(".back-red").show();
+        $(".back-blue").hide();
         })
-    
+
+    $("#button03").on("click",function(){
+        $("box03").hide();
+        $("box04").hide();
+        })
   
   })
